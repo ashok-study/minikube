@@ -31,7 +31,7 @@ $ sudo yum install libvirt-daemon-kvm qemu-kvm
 
 # Add yourself to the libvirtd group (use libvirt group for rpm based distros) so you don't need to sudo
 # Debian/Ubuntu (NOTE: For Ubuntu 17.04 change the group to `libvirt`)
-$ sudo usermod -a -G libvirtd $(whoami)
+$ sudo usermod -a -G libvirt $(whoami)
 # Fedora/CentOS/RHEL
 $ sudo usermod -a -G libvirt $(whoami)
 
